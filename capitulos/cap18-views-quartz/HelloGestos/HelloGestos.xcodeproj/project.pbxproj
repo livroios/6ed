@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0FE55D1C496D470007DC39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0FE55C1C496D470007DC39 /* Launch Screen.storyboard */; };
+		DDE7B9501969E31600136FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B94F1969E31600136FCA /* AppDelegate.swift */; };
+		DDE7B9521969E31600136FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B9511969E31600136FCA /* ViewController.swift */; };
+		DDE7B9551969E31600136FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B9531969E31600136FCA /* Main.storyboard */; };
+		DDE7B9571969E31600136FCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B9561969E31600136FCA /* Images.xcassets */; };
+		DDE7B96D1969E33500136FCA /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B96C1969E33500136FCA /* mclaren.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0FE55C1C496D470007DC39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DDE7B94A1969E31600136FCA /* HelloGestos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGestos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE7B94E1969E31600136FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE7B94F1969E31600136FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE7B9511969E31600136FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE7B9541969E31600136FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE7B9561969E31600136FCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDE7B9611969E31600136FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE7B9621969E31600136FCA /* HelloGestosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloGestosTests.swift; sourceTree = "<group>"; };
+		DDE7B96C1969E33500136FCA /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE7B9471969E31600136FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE7B9411969E31600136FCA = {
+			isa = PBXGroup;
+			children = (
+				DDE7B94C1969E31600136FCA /* HelloGestos */,
+				DDE7B95F1969E31600136FCA /* HelloGestosTests */,
+				DDE7B94B1969E31600136FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE7B94B1969E31600136FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B94A1969E31600136FCA /* HelloGestos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE7B94C1969E31600136FCA /* HelloGestos */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B94F1969E31600136FCA /* AppDelegate.swift */,
+				DD0FE55C1C496D470007DC39 /* Launch Screen.storyboard */,
+				DDE7B9511969E31600136FCA /* ViewController.swift */,
+				DDE7B9531969E31600136FCA /* Main.storyboard */,
+				DDE7B96E1969E33800136FCA /* Imagens */,
+				DDE7B9561969E31600136FCA /* Images.xcassets */,
+				DDE7B94D1969E31600136FCA /* Supporting Files */,
+			);
+			path = HelloGestos;
+			sourceTree = "<group>";
+		};
+		DDE7B94D1969E31600136FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B94E1969E31600136FCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE7B95F1969E31600136FCA /* HelloGestosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B9621969E31600136FCA /* HelloGestosTests.swift */,
+				DDE7B9601969E31600136FCA /* Supporting Files */,
+			);
+			path = HelloGestosTests;
+			sourceTree = "<group>";
+		};
+		DDE7B9601969E31600136FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B9611969E31600136FCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE7B96E1969E33800136FCA /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B96C1969E33500136FCA /* mclaren.png */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE7B9491969E31600136FCA /* HelloGestos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE7B9661969E31600136FCA /* Build configuration list for PBXNativeTarget "HelloGestos" */;
+			buildPhases = (
+				DDE7B9461969E31600136FCA /* Sources */,
+				DDE7B9471969E31600136FCA /* Frameworks */,
+				DDE7B9481969E31600136FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGestos;
+			productName = HelloGestos;
+			productReference = DDE7B94A1969E31600136FCA /* HelloGestos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE7B9421969E31600136FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DDE7B9491969E31600136FCA = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = DDE7B9451969E31600136FCA /* Build configuration list for PBXProject "HelloGestos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE7B9411969E31600136FCA;
+			productRefGroup = DDE7B94B1969E31600136FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE7B9491969E31600136FCA /* HelloGestos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE7B9481969E31600136FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B96D1969E33500136FCA /* mclaren.png in Resources */,
+				DDE7B9551969E31600136FCA /* Main.storyboard in Resources */,
+				DD0FE55D1C496D470007DC39 /* Launch Screen.storyboard in Resources */,
+				DDE7B9571969E31600136FCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE7B9461969E31600136FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B9521969E31600136FCA /* ViewController.swift in Sources */,
+				DDE7B9501969E31600136FCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDE7B9531969E31600136FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE7B9541969E31600136FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE7B9641969E31600136FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE7B9651969E31600136FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE7B9671969E31600136FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloGestos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DDE7B9681969E31600136FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloGestos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE7B9451969E31600136FCA /* Build configuration list for PBXProject "HelloGestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE7B9641969E31600136FCA /* Debug */,
+				DDE7B9651969E31600136FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE7B9661969E31600136FCA /* Build configuration list for PBXNativeTarget "HelloGestos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE7B9671969E31600136FCA /* Debug */,
+				DDE7B9681969E31600136FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE7B9421969E31600136FCA /* Project object */;
+}

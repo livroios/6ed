@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC6F25C209258C000CBEDE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6F25B209258C000CBEDE0 /* AppDelegate.swift */; };
+		DDC6F263209258C100CBEDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC6F262209258C100CBEDE0 /* Assets.xcassets */; };
+		DDC6F266209258C100CBEDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC6F264209258C100CBEDE0 /* LaunchScreen.storyboard */; };
+		DDCF86972094C2B100038E73 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCF86962094C2B100038E73 /* String+Extensions.swift */; };
+		DDCF869C2094DD5D00038E73 /* MeuPrimeiroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCF869B2094DD5D00038E73 /* MeuPrimeiroViewController.swift */; };
+		DDCF86A72094DEFA00038E73 /* MeuPrimeiroViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCF86A62094DEFA00038E73 /* MeuPrimeiroViewController_iPad.xib */; };
+		DDCF86A92094DF1C00038E73 /* MeuPrimeiroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCF86A82094DF1C00038E73 /* MeuPrimeiroViewController.xib */; };
+		DDCF86AE2094E52100038E73 /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCF86AC2094E52100038E73 /* ferrari_ff.png */; };
+		DDCF86AF2094E52100038E73 /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCF86AD2094E52100038E73 /* mclaren.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDC6F258209258C000CBEDE0 /* BemVindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BemVindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC6F25B209258C000CBEDE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC6F262209258C100CBEDE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC6F265209258C100CBEDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC6F267209258C100CBEDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCF86962094C2B100038E73 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		DDCF869B2094DD5D00038E73 /* MeuPrimeiroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPrimeiroViewController.swift; sourceTree = "<group>"; };
+		DDCF86A62094DEFA00038E73 /* MeuPrimeiroViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuPrimeiroViewController_iPad.xib; sourceTree = "<group>"; };
+		DDCF86A82094DF1C00038E73 /* MeuPrimeiroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuPrimeiroViewController.xib; sourceTree = "<group>"; };
+		DDCF86AC2094E52100038E73 /* ferrari_ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari_ff.png; sourceTree = "<group>"; };
+		DDCF86AD2094E52100038E73 /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC6F255209258C000CBEDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC6F24F209258C000CBEDE0 = {
+			isa = PBXGroup;
+			children = (
+				DDC6F25A209258C000CBEDE0 /* BemVindo */,
+				DDC6F259209258C000CBEDE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC6F259209258C000CBEDE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6F258209258C000CBEDE0 /* BemVindo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC6F25A209258C000CBEDE0 /* BemVindo */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6F25B209258C000CBEDE0 /* AppDelegate.swift */,
+				DDCF868E2094BB1C00038E73 /* Imagens */,
+				DDCF869A2094DD2B00038E73 /* Classes */,
+				DDC6F262209258C100CBEDE0 /* Assets.xcassets */,
+				DDC6F264209258C100CBEDE0 /* LaunchScreen.storyboard */,
+				DDC6F267209258C100CBEDE0 /* Info.plist */,
+			);
+			path = BemVindo;
+			sourceTree = "<group>";
+		};
+		DDCF868E2094BB1C00038E73 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF86AC2094E52100038E73 /* ferrari_ff.png */,
+				DDCF86AD2094E52100038E73 /* mclaren.png */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
+		DDCF86932094C26300038E73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF86962094C2B100038E73 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDCF869A2094DD2B00038E73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF86932094C26300038E73 /* Extensions */,
+				DDCF869B2094DD5D00038E73 /* MeuPrimeiroViewController.swift */,
+				DDCF86A82094DF1C00038E73 /* MeuPrimeiroViewController.xib */,
+				DDCF86A62094DEFA00038E73 /* MeuPrimeiroViewController_iPad.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC6F257209258C000CBEDE0 /* BemVindo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC6F26A209258C100CBEDE0 /* Build configuration list for PBXNativeTarget "BemVindo" */;
+			buildPhases = (
+				DDC6F254209258C000CBEDE0 /* Sources */,
+				DDC6F255209258C000CBEDE0 /* Frameworks */,
+				DDC6F256209258C000CBEDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BemVindo;
+			productName = BemVindo;
+			productReference = DDC6F258209258C000CBEDE0 /* BemVindo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC6F250209258C000CBEDE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DDC6F257209258C000CBEDE0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDC6F253209258C000CBEDE0 /* Build configuration list for PBXProject "BemVindo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC6F24F209258C000CBEDE0;
+			productRefGroup = DDC6F259209258C000CBEDE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC6F257209258C000CBEDE0 /* BemVindo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC6F256209258C000CBEDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCF86AF2094E52100038E73 /* mclaren.png in Resources */,
+				DDCF86AE2094E52100038E73 /* ferrari_ff.png in Resources */,
+				DDCF86A72094DEFA00038E73 /* MeuPrimeiroViewController_iPad.xib in Resources */,
+				DDCF86A92094DF1C00038E73 /* MeuPrimeiroViewController.xib in Resources */,
+				DDC6F266209258C100CBEDE0 /* LaunchScreen.storyboard in Resources */,
+				DDC6F263209258C100CBEDE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC6F254209258C000CBEDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCF86972094C2B100038E73 /* String+Extensions.swift in Sources */,
+				DDC6F25C209258C000CBEDE0 /* AppDelegate.swift in Sources */,
+				DDCF869C2094DD5D00038E73 /* MeuPrimeiroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDC6F264209258C100CBEDE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC6F265209258C100CBEDE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC6F268209258C100CBEDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC6F269209258C100CBEDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC6F26B209258C100CBEDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BemVindo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = livroiphone.com.br.BemVindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC6F26C209258C100CBEDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BemVindo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = livroiphone.com.br.BemVindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC6F253209258C000CBEDE0 /* Build configuration list for PBXProject "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC6F268209258C100CBEDE0 /* Debug */,
+				DDC6F269209258C100CBEDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC6F26A209258C100CBEDE0 /* Build configuration list for PBXNativeTarget "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC6F26B209258C100CBEDE0 /* Debug */,
+				DDC6F26C209258C100CBEDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC6F250209258C000CBEDE0 /* Project object */;
+}

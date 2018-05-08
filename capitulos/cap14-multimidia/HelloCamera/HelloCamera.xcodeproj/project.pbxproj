@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0FE54D1C47E5E70007DC39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0FE54C1C47E5E70007DC39 /* Launch Screen.storyboard */; };
+		DDED9BBB19689AD4004F416C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED9BBA19689AD4004F416C /* AppDelegate.swift */; };
+		DDED9BC019689AD4004F416C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED9BBF19689AD4004F416C /* ViewController.swift */; };
+		DDED9BC519689AD4004F416C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDED9BC419689AD4004F416C /* Images.xcassets */; };
+		DDED9BDD19689B6D004F416C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED9BDB19689B6D004F416C /* Main_iPad.storyboard */; };
+		DDED9BDE19689B6D004F416C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED9BDC19689B6D004F416C /* Main_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0FE54C1C47E5E70007DC39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DDED9BB519689AD4004F416C /* HelloCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED9BB919689AD4004F416C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED9BBA19689AD4004F416C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDED9BBF19689AD4004F416C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDED9BC419689AD4004F416C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDED9BCF19689AD4004F416C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED9BD019689AD4004F416C /* HelloCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCameraTests.swift; sourceTree = "<group>"; };
+		DDED9BDB19689B6D004F416C /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		DDED9BDC19689B6D004F416C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDED9BB219689AD4004F416C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDED9BAC19689AD4004F416C = {
+			isa = PBXGroup;
+			children = (
+				DDED9BB719689AD4004F416C /* HelloCamera */,
+				DDED9BCD19689AD4004F416C /* HelloCameraTests */,
+				DDED9BB619689AD4004F416C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDED9BB619689AD4004F416C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDED9BB519689AD4004F416C /* HelloCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDED9BB719689AD4004F416C /* HelloCamera */ = {
+			isa = PBXGroup;
+			children = (
+				DDED9BBA19689AD4004F416C /* AppDelegate.swift */,
+				DDED9BBF19689AD4004F416C /* ViewController.swift */,
+				DDED9BDB19689B6D004F416C /* Main_iPad.storyboard */,
+				DDED9BDC19689B6D004F416C /* Main_iPhone.storyboard */,
+				DDED9BC419689AD4004F416C /* Images.xcassets */,
+				DDED9BB819689AD4004F416C /* Supporting Files */,
+				DD0FE54C1C47E5E70007DC39 /* Launch Screen.storyboard */,
+			);
+			path = HelloCamera;
+			sourceTree = "<group>";
+		};
+		DDED9BB819689AD4004F416C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDED9BB919689AD4004F416C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDED9BCD19689AD4004F416C /* HelloCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDED9BD019689AD4004F416C /* HelloCameraTests.swift */,
+				DDED9BCE19689AD4004F416C /* Supporting Files */,
+			);
+			path = HelloCameraTests;
+			sourceTree = "<group>";
+		};
+		DDED9BCE19689AD4004F416C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDED9BCF19689AD4004F416C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDED9BB419689AD4004F416C /* HelloCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED9BD419689AD4004F416C /* Build configuration list for PBXNativeTarget "HelloCamera" */;
+			buildPhases = (
+				DDED9BB119689AD4004F416C /* Sources */,
+				DDED9BB219689AD4004F416C /* Frameworks */,
+				DDED9BB319689AD4004F416C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCamera;
+			productName = HelloCamera;
+			productReference = DDED9BB519689AD4004F416C /* HelloCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDED9BAD19689AD4004F416C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DDED9BB419689AD4004F416C = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = DDED9BB019689AD4004F416C /* Build configuration list for PBXProject "HelloCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDED9BAC19689AD4004F416C;
+			productRefGroup = DDED9BB619689AD4004F416C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDED9BB419689AD4004F416C /* HelloCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDED9BB319689AD4004F416C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED9BDE19689B6D004F416C /* Main_iPhone.storyboard in Resources */,
+				DDED9BDD19689B6D004F416C /* Main_iPad.storyboard in Resources */,
+				DD0FE54D1C47E5E70007DC39 /* Launch Screen.storyboard in Resources */,
+				DDED9BC519689AD4004F416C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDED9BB119689AD4004F416C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED9BC019689AD4004F416C /* ViewController.swift in Sources */,
+				DDED9BBB19689AD4004F416C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDED9BD219689AD4004F416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDED9BD319689AD4004F416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDED9BD519689AD4004F416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDED9BD619689AD4004F416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDED9BB019689AD4004F416C /* Build configuration list for PBXProject "HelloCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED9BD219689AD4004F416C /* Debug */,
+				DDED9BD319689AD4004F416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED9BD419689AD4004F416C /* Build configuration list for PBXNativeTarget "HelloCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED9BD519689AD4004F416C /* Debug */,
+				DDED9BD619689AD4004F416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDED9BAD19689AD4004F416C /* Project object */;
+}

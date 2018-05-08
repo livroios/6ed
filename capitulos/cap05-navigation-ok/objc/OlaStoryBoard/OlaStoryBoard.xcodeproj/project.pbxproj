@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD36A744196F2B8C00FBBB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36A743196F2B8C00FBBB40 /* main.m */; };
+		DD36A747196F2B8D00FBBB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36A746196F2B8D00FBBB40 /* AppDelegate.m */; };
+		DD36A74A196F2B8D00FBBB40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36A749196F2B8D00FBBB40 /* ViewController.m */; };
+		DD36A74D196F2B8D00FBBB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD36A74B196F2B8D00FBBB40 /* Main.storyboard */; };
+		DD36A74F196F2B8D00FBBB40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD36A74E196F2B8D00FBBB40 /* Images.xcassets */; };
+		DD36A75B196F2B8D00FBBB40 /* OlaStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36A75A196F2B8D00FBBB40 /* OlaStoryBoardTests.m */; };
+		DD89DBBB1BD6713400EE3FBF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD89DBBA1BD6713400EE3FBF /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD36A755196F2B8D00FBBB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD36A736196F2B8C00FBBB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD36A73D196F2B8C00FBBB40;
+			remoteInfo = OlaStoryBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD36A73E196F2B8C00FBBB40 /* OlaStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36A742196F2B8C00FBBB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD36A743196F2B8C00FBBB40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD36A745196F2B8C00FBBB40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD36A746196F2B8D00FBBB40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD36A748196F2B8D00FBBB40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD36A749196F2B8D00FBBB40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD36A74C196F2B8D00FBBB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD36A74E196F2B8D00FBBB40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD36A754196F2B8D00FBBB40 /* OlaStoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaStoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36A759196F2B8D00FBBB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD36A75A196F2B8D00FBBB40 /* OlaStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaStoryBoardTests.m; sourceTree = "<group>"; };
+		DD89DBBA1BD6713400EE3FBF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD36A73B196F2B8C00FBBB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36A751196F2B8D00FBBB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD36A735196F2B8C00FBBB40 = {
+			isa = PBXGroup;
+			children = (
+				DD36A740196F2B8C00FBBB40 /* OlaStoryBoard */,
+				DD36A757196F2B8D00FBBB40 /* OlaStoryBoardTests */,
+				DD36A73F196F2B8C00FBBB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD36A73F196F2B8C00FBBB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD36A73E196F2B8C00FBBB40 /* OlaStoryBoard.app */,
+				DD36A754196F2B8D00FBBB40 /* OlaStoryBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD36A740196F2B8C00FBBB40 /* OlaStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DD36A745196F2B8C00FBBB40 /* AppDelegate.h */,
+				DD36A746196F2B8D00FBBB40 /* AppDelegate.m */,
+				DD36A748196F2B8D00FBBB40 /* ViewController.h */,
+				DD36A749196F2B8D00FBBB40 /* ViewController.m */,
+				DD36A74B196F2B8D00FBBB40 /* Main.storyboard */,
+				DD36A74E196F2B8D00FBBB40 /* Images.xcassets */,
+				DD36A741196F2B8C00FBBB40 /* Supporting Files */,
+				DD89DBBA1BD6713400EE3FBF /* Launch Screen.storyboard */,
+			);
+			path = OlaStoryBoard;
+			sourceTree = "<group>";
+		};
+		DD36A741196F2B8C00FBBB40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD36A742196F2B8C00FBBB40 /* Info.plist */,
+				DD36A743196F2B8C00FBBB40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD36A757196F2B8D00FBBB40 /* OlaStoryBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD36A75A196F2B8D00FBBB40 /* OlaStoryBoardTests.m */,
+				DD36A758196F2B8D00FBBB40 /* Supporting Files */,
+			);
+			path = OlaStoryBoardTests;
+			sourceTree = "<group>";
+		};
+		DD36A758196F2B8D00FBBB40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD36A759196F2B8D00FBBB40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD36A73D196F2B8C00FBBB40 /* OlaStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD36A75E196F2B8D00FBBB40 /* Build configuration list for PBXNativeTarget "OlaStoryBoard" */;
+			buildPhases = (
+				DD36A73A196F2B8C00FBBB40 /* Sources */,
+				DD36A73B196F2B8C00FBBB40 /* Frameworks */,
+				DD36A73C196F2B8C00FBBB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaStoryBoard;
+			productName = OlaStoryBoard;
+			productReference = DD36A73E196F2B8C00FBBB40 /* OlaStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD36A753196F2B8D00FBBB40 /* OlaStoryBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD36A761196F2B8D00FBBB40 /* Build configuration list for PBXNativeTarget "OlaStoryBoardTests" */;
+			buildPhases = (
+				DD36A750196F2B8D00FBBB40 /* Sources */,
+				DD36A751196F2B8D00FBBB40 /* Frameworks */,
+				DD36A752196F2B8D00FBBB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD36A756196F2B8D00FBBB40 /* PBXTargetDependency */,
+			);
+			name = OlaStoryBoardTests;
+			productName = OlaStoryBoardTests;
+			productReference = DD36A754196F2B8D00FBBB40 /* OlaStoryBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD36A736196F2B8C00FBBB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DD36A73D196F2B8C00FBBB40 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DD36A753196F2B8D00FBBB40 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DD36A73D196F2B8C00FBBB40;
+					};
+				};
+			};
+			buildConfigurationList = DD36A739196F2B8C00FBBB40 /* Build configuration list for PBXProject "OlaStoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD36A735196F2B8C00FBBB40;
+			productRefGroup = DD36A73F196F2B8C00FBBB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD36A73D196F2B8C00FBBB40 /* OlaStoryBoard */,
+				DD36A753196F2B8D00FBBB40 /* OlaStoryBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD36A73C196F2B8C00FBBB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD89DBBB1BD6713400EE3FBF /* Launch Screen.storyboard in Resources */,
+				DD36A74D196F2B8D00FBBB40 /* Main.storyboard in Resources */,
+				DD36A74F196F2B8D00FBBB40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36A752196F2B8D00FBBB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD36A73A196F2B8C00FBBB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36A74A196F2B8D00FBBB40 /* ViewController.m in Sources */,
+				DD36A747196F2B8D00FBBB40 /* AppDelegate.m in Sources */,
+				DD36A744196F2B8C00FBBB40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36A750196F2B8D00FBBB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36A75B196F2B8D00FBBB40 /* OlaStoryBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD36A756196F2B8D00FBBB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD36A73D196F2B8C00FBBB40 /* OlaStoryBoard */;
+			targetProxy = DD36A755196F2B8D00FBBB40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD36A74B196F2B8D00FBBB40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD36A74C196F2B8D00FBBB40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD36A75C196F2B8D00FBBB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD36A75D196F2B8D00FBBB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD36A75F196F2B8D00FBBB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OlaStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD36A760196F2B8D00FBBB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OlaStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD36A762196F2B8D00FBBB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaStoryBoard.app/OlaStoryBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OlaStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DD36A763196F2B8D00FBBB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaStoryBoard.app/OlaStoryBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OlaStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD36A739196F2B8C00FBBB40 /* Build configuration list for PBXProject "OlaStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36A75C196F2B8D00FBBB40 /* Debug */,
+				DD36A75D196F2B8D00FBBB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD36A75E196F2B8D00FBBB40 /* Build configuration list for PBXNativeTarget "OlaStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36A75F196F2B8D00FBBB40 /* Debug */,
+				DD36A760196F2B8D00FBBB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD36A761196F2B8D00FBBB40 /* Build configuration list for PBXNativeTarget "OlaStoryBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36A762196F2B8D00FBBB40 /* Debug */,
+				DD36A763196F2B8D00FBBB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD36A736196F2B8C00FBBB40 /* Project object */;
+}

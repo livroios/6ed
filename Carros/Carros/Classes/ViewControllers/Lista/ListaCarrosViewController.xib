@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListaCarrosViewController" customModule="Carros" customModuleProvider="target">
+            <connections>
+                <outlet property="progress" destination="BDC-5f-g36" id="EPm-Ej-G68"/>
+                <outlet property="segmentControl" destination="vDQ-jq-RoN" id="HhX-Sn-Y50"/>
+                <outlet property="tableView" destination="wCC-CS-hce" id="eea-Re-pm7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="wCC-CS-hce">
+                    <rect key="frame" x="0.0" y="130" width="320" height="299"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vDQ-jq-RoN">
+                    <rect key="frame" x="42" y="80" width="236" height="29"/>
+                    <segments>
+                        <segment title="Clássicos"/>
+                        <segment title="Esportivos"/>
+                        <segment title="Luxo"/>
+                    </segments>
+                    <connections>
+                        <action selector="alterarTipo:" destination="-1" eventType="valueChanged" id="G2g-06-mNd"/>
+                    </connections>
+                </segmentedControl>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BDC-5f-g36">
+                    <rect key="frame" x="150" y="230" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wCC-CS-hce" firstAttribute="top" secondItem="vDQ-jq-RoN" secondAttribute="bottom" constant="22" id="5hQ-GP-OA3"/>
+                <constraint firstItem="wCC-CS-hce" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="85I-IE-dvm"/>
+                <constraint firstItem="vDQ-jq-RoN" firstAttribute="centerX" secondItem="wCC-CS-hce" secondAttribute="centerX" id="9vM-cT-Awg"/>
+                <constraint firstItem="vDQ-jq-RoN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="HAe-SD-EuF"/>
+                <constraint firstAttribute="bottom" secondItem="wCC-CS-hce" secondAttribute="bottom" constant="51" id="RMz-Pc-oIc"/>
+                <constraint firstAttribute="trailing" secondItem="wCC-CS-hce" secondAttribute="trailing" id="fDf-hB-qxs"/>
+                <constraint firstItem="wCC-CS-hce" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jPp-55-VJX"/>
+                <constraint firstItem="vDQ-jq-RoN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="mWf-Jv-WVP"/>
+                <constraint firstItem="wCC-CS-hce" firstAttribute="top" secondItem="vDQ-jq-RoN" secondAttribute="bottom" constant="22" id="wus-Zd-xwX"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics">
+                <size key="portraitSize" width="320" height="480"/>
+                <size key="landscapeSize" width="480" height="320"/>
+            </simulatedScreenMetrics>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="HAe-SD-EuF"/>
+                    <exclude reference="85I-IE-dvm"/>
+                    <exclude reference="wus-Zd-xwX"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="97" y="77"/>
+        </view>
+    </objects>
+</document>

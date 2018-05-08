@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yps-sU-HWC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="wLp-SP-4d1">
+            <objects>
+                <navigationController id="Yps-sU-HWC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZIY-jK-CkM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iIU-YM-Q36" kind="relationship" relationship="rootViewController" id="2gx-XP-gJd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGA-QQ-KSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1934" y="-36"/>
+        </scene>
+        <!--Tela 1-->
+        <scene sceneID="0FR-ga-sD0">
+            <objects>
+                <viewController id="iIU-YM-Q36" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YeY-8a-qQo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIq-h1-LTO">
+                                <rect key="frame" x="89" y="372" width="196" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Vai para Tela 3"/>
+                                <connections>
+                                    <segue destination="4Nd-KF-5P4" kind="presentation" id="sdd-hu-L39"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uuH-JO-ngi">
+                                <rect key="frame" x="95" y="273" width="185" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ogh-I1-yD6">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="48"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhf-Ez-Ly2">
+                                                <rect key="frame" x="0.0" y="0.0" width="185" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Vai para Tela 2"/>
+                                                <connections>
+                                                    <segue destination="w4L-un-hUP" kind="show" id="Wf7-4l-aur"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vhf-Ez-Ly2" firstAttribute="top" secondItem="ogh-I1-yD6" secondAttribute="top" id="QVt-7z-zUj"/>
+                                            <constraint firstItem="vhf-Ez-Ly2" firstAttribute="leading" secondItem="ogh-I1-yD6" secondAttribute="leading" id="SLT-dP-cPS"/>
+                                            <constraint firstAttribute="trailing" secondItem="vhf-Ez-Ly2" secondAttribute="trailing" id="TFs-CQ-HbB"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tIq-h1-LTO" firstAttribute="leading" secondItem="ik2-yg-2hg" secondAttribute="leading" constant="89" id="2v8-AV-mW7"/>
+                            <constraint firstItem="ik2-yg-2hg" firstAttribute="trailing" secondItem="tIq-h1-LTO" secondAttribute="trailing" constant="90" id="EUX-hL-yZg"/>
+                            <constraint firstItem="ik2-yg-2hg" firstAttribute="bottom" secondItem="tIq-h1-LTO" secondAttribute="bottom" constant="247" id="XI7-Pc-wCZ"/>
+                            <constraint firstItem="tIq-h1-LTO" firstAttribute="top" secondItem="vhf-Ez-Ly2" secondAttribute="bottom" constant="69" id="dr4-QK-JCh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ik2-yg-2hg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tela 1" id="70V-ZS-RBR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4d-Kp-t6Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1162" y="-36"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U3B-Tr-Lnn">
+            <objects>
+                <viewController id="4Nd-KF-5P4" customClass="ViewController" customModule="OlaStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Agb-JZ-M0y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c72-ja-HRV">
+                                <rect key="frame" x="163" y="235" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fechar"/>
+                                <connections>
+                                    <action selector="fechar:" destination="4Nd-KF-5P4" eventType="touchUpInside" id="BcF-fb-vRK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pc1-0L-FdQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skq-fM-7X9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-420" y="322"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3h2-Bx-gsM">
+            <objects>
+                <viewController id="w4L-un-hUP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VTa-tD-Qea">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h1B-QH-ryP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNQ-rB-7e6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-407" y="-336"/>
+        </scene>
+    </scenes>
+</document>

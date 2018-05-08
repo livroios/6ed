@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD45300F1C431E1C0032BA58 /* ViewControllerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45300E1C431E1C0032BA58 /* ViewControllerOld.swift */; };
+		DD4530111C4320C10032BA58 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4530101C4320C10032BA58 /* Launch Screen.storyboard */; };
+		DD56F38819745FC600E6A4F1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD56F38719745FC600E6A4F1 /* CoreMotion.framework */; };
+		DDEF42F3197446700012D3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF42F2197446700012D3A7 /* AppDelegate.swift */; };
+		DDEF42F5197446700012D3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF42F4197446700012D3A7 /* ViewController.swift */; };
+		DDEF42F8197446700012D3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEF42F6197446700012D3A7 /* Main.storyboard */; };
+		DDEF42FA197446700012D3A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEF42F9197446700012D3A7 /* Images.xcassets */; };
+		DDEF4306197446710012D3A7 /* HelloAcelerometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF4305197446710012D3A7 /* HelloAcelerometroTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEF4300197446710012D3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEF42E5197446700012D3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDEF42EC197446700012D3A7;
+			remoteInfo = HelloAcelerometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD45300E1C431E1C0032BA58 /* ViewControllerOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOld.swift; sourceTree = "<group>"; };
+		DD4530101C4320C10032BA58 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DD56F38719745FC600E6A4F1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DDEF42ED197446700012D3A7 /* HelloAcelerometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAcelerometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEF42F1197446700012D3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEF42F2197446700012D3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDEF42F4197446700012D3A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDEF42F7197446700012D3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDEF42F9197446700012D3A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDEF42FF197446710012D3A7 /* HelloAcelerometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAcelerometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEF4304197446710012D3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEF4305197446710012D3A7 /* HelloAcelerometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAcelerometroTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDEF42EA197446700012D3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD56F38819745FC600E6A4F1 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEF42FC197446710012D3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDEF42E4197446700012D3A7 = {
+			isa = PBXGroup;
+			children = (
+				DD4530101C4320C10032BA58 /* Launch Screen.storyboard */,
+				DD56F38719745FC600E6A4F1 /* CoreMotion.framework */,
+				DDEF42EF197446700012D3A7 /* HelloAcelerometro */,
+				DDEF4302197446710012D3A7 /* HelloAcelerometroTests */,
+				DDEF42EE197446700012D3A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDEF42EE197446700012D3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF42ED197446700012D3A7 /* HelloAcelerometro.app */,
+				DDEF42FF197446710012D3A7 /* HelloAcelerometroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEF42EF197446700012D3A7 /* HelloAcelerometro */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF42F2197446700012D3A7 /* AppDelegate.swift */,
+				DDEF42F4197446700012D3A7 /* ViewController.swift */,
+				DD45300E1C431E1C0032BA58 /* ViewControllerOld.swift */,
+				DDEF42F6197446700012D3A7 /* Main.storyboard */,
+				DDEF42F9197446700012D3A7 /* Images.xcassets */,
+				DDEF42F0197446700012D3A7 /* Supporting Files */,
+			);
+			path = HelloAcelerometro;
+			sourceTree = "<group>";
+		};
+		DDEF42F0197446700012D3A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF42F1197446700012D3A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDEF4302197446710012D3A7 /* HelloAcelerometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF4305197446710012D3A7 /* HelloAcelerometroTests.swift */,
+				DDEF4303197446710012D3A7 /* Supporting Files */,
+			);
+			path = HelloAcelerometroTests;
+			sourceTree = "<group>";
+		};
+		DDEF4303197446710012D3A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF4304197446710012D3A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDEF42EC197446700012D3A7 /* HelloAcelerometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEF4309197446710012D3A7 /* Build configuration list for PBXNativeTarget "HelloAcelerometro" */;
+			buildPhases = (
+				DDEF42E9197446700012D3A7 /* Sources */,
+				DDEF42EA197446700012D3A7 /* Frameworks */,
+				DDEF42EB197446700012D3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAcelerometro;
+			productName = HelloAcelerometro;
+			productReference = DDEF42ED197446700012D3A7 /* HelloAcelerometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEF42FE197446710012D3A7 /* HelloAcelerometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEF430C197446710012D3A7 /* Build configuration list for PBXNativeTarget "HelloAcelerometroTests" */;
+			buildPhases = (
+				DDEF42FB197446710012D3A7 /* Sources */,
+				DDEF42FC197446710012D3A7 /* Frameworks */,
+				DDEF42FD197446710012D3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDEF4301197446710012D3A7 /* PBXTargetDependency */,
+			);
+			name = HelloAcelerometroTests;
+			productName = HelloAcelerometroTests;
+			productReference = DDEF42FF197446710012D3A7 /* HelloAcelerometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDEF42E5197446700012D3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DDEF42EC197446700012D3A7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DDEF42FE197446710012D3A7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DDEF42EC197446700012D3A7;
+					};
+				};
+			};
+			buildConfigurationList = DDEF42E8197446700012D3A7 /* Build configuration list for PBXProject "HelloAcelerometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDEF42E4197446700012D3A7;
+			productRefGroup = DDEF42EE197446700012D3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDEF42EC197446700012D3A7 /* HelloAcelerometro */,
+				DDEF42FE197446710012D3A7 /* HelloAcelerometroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDEF42EB197446700012D3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4530111C4320C10032BA58 /* Launch Screen.storyboard in Resources */,
+				DDEF42F8197446700012D3A7 /* Main.storyboard in Resources */,
+				DDEF42FA197446700012D3A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEF42FD197446710012D3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDEF42E9197446700012D3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD45300F1C431E1C0032BA58 /* ViewControllerOld.swift in Sources */,
+				DDEF42F5197446700012D3A7 /* ViewController.swift in Sources */,
+				DDEF42F3197446700012D3A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEF42FB197446710012D3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEF4306197446710012D3A7 /* HelloAcelerometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDEF4301197446710012D3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDEF42EC197446700012D3A7 /* HelloAcelerometro */;
+			targetProxy = DDEF4300197446710012D3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDEF42F6197446700012D3A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEF42F7197446700012D3A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDEF4307197446710012D3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDEF4308197446710012D3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDEF430A197446710012D3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloAcelerometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDEF430B197446710012D3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloAcelerometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDEF430D197446710012D3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloAcelerometro.app/HelloAcelerometro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAcelerometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DDEF430E197446710012D3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloAcelerometro.app/HelloAcelerometro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloAcelerometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDEF42E8197446700012D3A7 /* Build configuration list for PBXProject "HelloAcelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEF4307197446710012D3A7 /* Debug */,
+				DDEF4308197446710012D3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEF4309197446710012D3A7 /* Build configuration list for PBXNativeTarget "HelloAcelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEF430A197446710012D3A7 /* Debug */,
+				DDEF430B197446710012D3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEF430C197446710012D3A7 /* Build configuration list for PBXNativeTarget "HelloAcelerometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDEF430D197446710012D3A7 /* Debug */,
+				DDEF430E197446710012D3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDEF42E5197446700012D3A7 /* Project object */;
+}

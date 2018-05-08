@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0FE54F1C47F5500007DC39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0FE54E1C47F5500007DC39 /* Launch Screen.storyboard */; };
+		DDD8DA341968A24300750E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8DA331968A24300750E43 /* AppDelegate.swift */; };
+		DDD8DA391968A24300750E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8DA381968A24300750E43 /* ViewController.swift */; };
+		DDD8DA3C1968A24300750E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8DA3A1968A24300750E43 /* Main.storyboard */; };
+		DDD8DA3E1968A24400750E43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD8DA3D1968A24400750E43 /* Images.xcassets */; };
+		DDD8DA541968A27B00750E43 /* sumario_livro_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DDD8DA531968A27B00750E43 /* sumario_livro_ios.pdf */; };
+		DDD8DA571968A33C00750E43 /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD8DA561968A33C00750E43 /* mclaren.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0FE54E1C47F5500007DC39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DDD8DA2E1968A24300750E43 /* HelloIBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloIBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD8DA321968A24300750E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD8DA331968A24300750E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD8DA381968A24300750E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDD8DA3B1968A24300750E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD8DA3D1968A24400750E43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDD8DA481968A24400750E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD8DA491968A24400750E43 /* HelloIBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloIBooksTests.swift; sourceTree = "<group>"; };
+		DDD8DA531968A27B00750E43 /* sumario_livro_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sumario_livro_ios.pdf; sourceTree = "<group>"; };
+		DDD8DA561968A33C00750E43 /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD8DA2B1968A24300750E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD8DA251968A24300750E43 = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA301968A24300750E43 /* HelloIBooks */,
+				DDD8DA461968A24400750E43 /* HelloIBooksTests */,
+				DDD8DA2F1968A24300750E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD8DA2F1968A24300750E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA2E1968A24300750E43 /* HelloIBooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD8DA301968A24300750E43 /* HelloIBooks */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA331968A24300750E43 /* AppDelegate.swift */,
+				DDD8DA381968A24300750E43 /* ViewController.swift */,
+				DDD8DA3A1968A24300750E43 /* Main.storyboard */,
+				DDD8DA3D1968A24400750E43 /* Images.xcassets */,
+				DDD8DA551968A28000750E43 /* Resources */,
+				DDD8DA311968A24300750E43 /* Supporting Files */,
+				DD0FE54E1C47F5500007DC39 /* Launch Screen.storyboard */,
+			);
+			path = HelloIBooks;
+			sourceTree = "<group>";
+		};
+		DDD8DA311968A24300750E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA321968A24300750E43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD8DA461968A24400750E43 /* HelloIBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA491968A24400750E43 /* HelloIBooksTests.swift */,
+				DDD8DA471968A24400750E43 /* Supporting Files */,
+			);
+			path = HelloIBooksTests;
+			sourceTree = "<group>";
+		};
+		DDD8DA471968A24400750E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA481968A24400750E43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD8DA551968A28000750E43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD8DA561968A33C00750E43 /* mclaren.png */,
+				DDD8DA531968A27B00750E43 /* sumario_livro_ios.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD8DA2D1968A24300750E43 /* HelloIBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD8DA4D1968A24400750E43 /* Build configuration list for PBXNativeTarget "HelloIBooks" */;
+			buildPhases = (
+				DDD8DA2A1968A24300750E43 /* Sources */,
+				DDD8DA2B1968A24300750E43 /* Frameworks */,
+				DDD8DA2C1968A24300750E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloIBooks;
+			productName = HelloIBooks;
+			productReference = DDD8DA2E1968A24300750E43 /* HelloIBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD8DA261968A24300750E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+				TargetAttributes = {
+					DDD8DA2D1968A24300750E43 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 452LSEPTM2;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = DDD8DA291968A24300750E43 /* Build configuration list for PBXProject "HelloIBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD8DA251968A24300750E43;
+			productRefGroup = DDD8DA2F1968A24300750E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD8DA2D1968A24300750E43 /* HelloIBooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD8DA2C1968A24300750E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD8DA571968A33C00750E43 /* mclaren.png in Resources */,
+				DDD8DA3C1968A24300750E43 /* Main.storyboard in Resources */,
+				DDD8DA541968A27B00750E43 /* sumario_livro_ios.pdf in Resources */,
+				DD0FE54F1C47F5500007DC39 /* Launch Screen.storyboard in Resources */,
+				DDD8DA3E1968A24400750E43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD8DA2A1968A24300750E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD8DA391968A24300750E43 /* ViewController.swift in Sources */,
+				DDD8DA341968A24300750E43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDD8DA3A1968A24300750E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD8DA3B1968A24300750E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD8DA4B1968A24400750E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD8DA4C1968A24400750E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD8DA4E1968A24400750E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloIBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DDD8DA4F1968A24400750E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloIBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.livro.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD8DA291968A24300750E43 /* Build configuration list for PBXProject "HelloIBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD8DA4B1968A24400750E43 /* Debug */,
+				DDD8DA4C1968A24400750E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD8DA4D1968A24400750E43 /* Build configuration list for PBXNativeTarget "HelloIBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD8DA4E1968A24400750E43 /* Debug */,
+				DDD8DA4F1968A24400750E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD8DA261968A24300750E43 /* Project object */;
+}
